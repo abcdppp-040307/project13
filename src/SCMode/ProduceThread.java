@@ -69,6 +69,7 @@ class XiaoFei extends Thread{
 public class ProduceThread {
     public static void main(String[] args) {
         SyncStack ss=new SyncStack();
+        if(false) ;
         new ShengChan(ss).start();
         new XiaoFei(ss).start();
     }
